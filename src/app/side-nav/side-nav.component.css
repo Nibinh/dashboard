@@ -1,0 +1,29 @@
+.profile-card{
+    text-align: center;
+}
+.profile-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+a:hover{
+    background-color: rgb(161, 167, 172);
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+ }
+
+::-webkit-scrollbar-track {
+  background-color: rgb(248, 245, 245);
+  -webkit-box-shadow:inset 0 0 6px rgb(0,0,0,0,);
+  
+}
+
+::-webkit-scrollbar-thumb {
+  background: #6c0ede;
+  outline: 1px solid slategray;
+  
+  
+}

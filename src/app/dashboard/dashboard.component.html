@@ -1,0 +1,35 @@
+<!-- cards -->
+<div fxLayout="row" fxLayoutAlign="space-between center" fxLayout="20px">
+    <mat-card>
+        <app-widget-card  bg="blue" total="2000" icon="dashboard" desc="Dashboard"> </app-widget-card>
+    </mat-card>
+      <mat-card>
+        <app-widget-card bg="red" total="1200" icon="home" desc="Institutions"> </app-widget-card>
+    </mat-card>
+      <mat-card>
+        <app-widget-card bg="green" total="550" icon="person" desc="Students"> </app-widget-card>
+    </mat-card>
+      <mat-card>
+        <app-widget-card bg="majanta" total="55" icon="group" desc="Employee"> </app-widget-card>
+    </mat-card>
+</div>
+
+
+
+
+<!-- chart -->
+<app-widget-chart></app-widget-chart>
+
+
+<div fxLayout="row" fxLayoutAlign="space-evenly" fxLayoutGap="20px">
+
+  <!-- table -->
+<div fxFlex="60">
+  <app-widget-table></app-widget-table>
+</div>
+  <!-- pie -->
+ <div fxFlex="40">
+   <app-widget-pie></app-widget-pie>
+  </div>
+
+</div>

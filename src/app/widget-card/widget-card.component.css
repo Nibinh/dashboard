@@ -1,0 +1,21 @@
+.card{
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.majanta{
+    background-color: rgb(162, 45, 98);
+}
+
